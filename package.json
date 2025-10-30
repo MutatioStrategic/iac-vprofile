@@ -1,0 +1,32 @@
+{
+  "name": "case-management-pipeline",
+  "version": "1.0.0",
+  "description": "Event-driven case management system with dynamic pipeline execution",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "example": "node src/examples/basicUsage.js",
+    "dev": "nodemon src/api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "case-management",
+    "pipeline",
+    "workflow",
+    "legal",
+    "matter-management",
+    "event-driven"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
